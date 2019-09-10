@@ -20,3 +20,41 @@
     padding-right: 8%;
     font-size: 5.0rem;
 }
+
+.numberButtonDiv {
+    display: flex;
+}
+
+.operatorButtonDiv {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.specialButtonDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.numberButtonDiv .button, .operatorButtonDiv .button, .specialButtonDiv .button {
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.numberButtons {
+    background: indigo;
+}
+
+.operatorButtons {
+    background-color: lightblue; 
+}
+
+.specialButtons {
+    background-color: blue;
+}
+
