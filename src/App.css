@@ -6,8 +6,13 @@
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+
+.logo {
+    padding: 20px;
+}
+
 .display {
-    margin-top: 25px;
+    margin: 28px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -19,4 +24,49 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+}
+
+.calculatorButtons {
+    display: flex;
+    padding: 20px;
+
+}
+
+.left {
+    width: 75%;
+}
+
+.right {
+    width: 25%;
+
+}
+
+.button {
+    color: white;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    margin: 20px;
+    font-size: 2rem;
+    border: none;
+    
+
+}
+
+.numberButtons {
+    background: #153E7B;
+}
+
+.numberButtons:nth-last-child(2) {
+    width: 210px;
+    border-radius: 40px;
+}
+
+.operatorButtons {
+    background-color: #007395; 
+}
+
+.specialButtons {
+    background-color: #1A58A0;
+}
+
